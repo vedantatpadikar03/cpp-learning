@@ -1,6 +1,20 @@
-.DS_Store
-.vscode/
+# C++ compiled files
+*.out
+*.o
+*.exe
+
+# macOS debug/build files
 *.dSYM/
-calculator
-9 creating simple Calculator
-10 create a student report card
+*.dSYM
+
+# macOS system files
+.DS_Store
+
+# VS Code settings
+.vscode/
+
+# Other files without extensions
+*
+!*/
+!*.cpp
+!.gitignore
